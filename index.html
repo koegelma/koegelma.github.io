@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Marius Kögel - Game Developer</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Marius Kögel" class="avatar">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Marius Kögel">Marius Kögel</h1>
+
+          <p class="title">Game Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marius.koegel@protonmail.com" class="contact-link">marius.koegel@pm.me</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+4917657734255" class="contact-link">+49 176 57734255</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">14. August 1993</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mannheim, Germany</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/koegelma" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Attributions</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello and welcome! I'm a passionate game developer specializing in programming and game design.
+          </p>
+          <p>
+            I'm excited
+            to bring new game ideas to life and to learn about new technologies along the way.
+            What sets me apart from other developers is my ability to take a unique approach to game development. For
+            example, one of my recent projects involved designing and developing a <a href="https://github.com/koegelma/TheArtOfPeace">VR game</a> with gesture recognition
+            which can be controlled exclusively by movements modelled on the martial art of aikido.
+          </p>
+          <p>
+            I am currently completing my thesis at the
+            <a href="http://www.hs-furtwangen.de/">University of Applied Sciences Furtwangen</a>, where I've gained
+            valuable experience in computer science and game development. My preferred game engine is Unity, but I also
+            have experience with other engines. I'm proficient in several programming languages, including C#, Java,
+            Python, JavaScript, and TypeScript.
+          </p>
+          <p>
+            If you're interested in learning more about my work, please feel free to check out my portfolio or <a
+              href="mailto:marius.koegel@protonmail.com">get in touch</a> to discuss potential job opportunities. I'm
+            excited to collaborate with other passionate game developers and to help create games that entertain,
+            challenge, and inspire players of all ages.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-coding.png" alt="coding icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Programming</h4>
+
+                <p class="service-item-text">
+                  Writing clean and structured code that is easy to maintain and extend.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Design</h4>
+                <p class="service-item-text">
+                  Designing the game mechanics, level design and user interface.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-vr.png" alt="vr icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">VR Development</h4>
+
+                <p class="service-item-text">
+                  Developing games and applications for platforms such as SteamVR or Meta / Oculus.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-narration.png" alt="narration icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Narrative Design</h4>
+
+                <p class="service-item-text">
+                  Creating the world, characters and story to immerse the player.
+                  <!-- Storytelling, character development and world building. -->
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Applied Sciences Furtwangen</h4>
+
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                Bachelor of Science (Computer Science in Media / Medieninformatik)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Applied Sciences Mainz</h4>
+
+              <span>2017 — 2018</span>
+
+              <p class="timeline-text">
+                Master of Science, not finished (Facilities Management / Bau- und Immobilienmanagement)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SRH University Heidelberg</h4>
+
+              <span>2013 — 2016</span>
+
+              <p class="timeline-text">
+                Bachelor of Engineering (Real Estate and Facility Management / Immobilien- und Facility Management)
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Johann-Sebastian-Bach Gymnasium Mannheim</h4>
+
+              <span>2004 — 2012</span>
+
+              <p class="timeline-text">
+                Abitur
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern (Hansgrohe SE - Innovation Lab)</h4>
+
+              <span>2020</span>
+
+              <p class="timeline-text">
+                Programming, 3D Modeling & Animation, Video Editing & Compositing, as well as Product & Innovation
+                Design for
+                various projects, such as <a href="https://www.instagram.com/p/CCn84YEByxI/">Seifenkiste</a>, in the
+                fields
+                of smart living, future housing, and sustainable living.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Customer service and office management (Partyservice Kögel)</h4>
+
+              <span>2017 — 2019</span>
+
+              <p class="timeline-text">
+                Customer service, office management, and event management for a catering company.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior Consultant (Lidl Dienstleistung GmbH & Co. KG)</h4>
+
+              <span>2016 — 2017</span>
+
+              <p class="timeline-text">
+                Junior Consultant in the field of Computer-Aided Facility Management (CAFM) for Lidl Deutschland.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Working Student (Lidl Dienstleistung GmbH & Co. KG)</h4>
+
+              <span>2015 - 2016</span>
+
+              <p class="timeline-text">
+                Working Student in the field of strategic facility management for Lidl Deutschland.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern (Lidl Dienstleistung GmbH & Co. KG)</h4>
+
+              <span>2015</span>
+
+              <p class="timeline-text">
+                Intern in the field of strategic facility management for Lidl Deutschland.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Participant of the Working Holiday program in Canada</h4>
+
+              <span>2012 — 2013</span>
+
+              <p class="timeline-text">
+                Work and travel in Canada.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming & Game Engines</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Narrative Design</h5>
+                <data value="90">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">3D Modeling, Rigging & Animation</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>2D Game</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>3D Game</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>VR Game</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>2D Game</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>3D Game</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>VR Game</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="vr game">
+              <a href="https://github.com/koegelma/TheArtOfPeace">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Art Of Peace</h3>
+                <p class="project-category">VR Game developed with Unity as part of my thesis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="3d game">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Way Of Astraeus</h3>
+
+                <p class="project-category">Topdown Roguelite Space Shooter developed with Unity</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="2d game">
+              <a href="https://github.com/koegelma/Broken_Days">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Broken Days</h3>
+
+                <p class="project-category">Visual Novel developed with </p><a class="project-category"
+                  href="https://github.com/JirkaDellOro/FUDGE">FUDGE</a>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="2d game">
+              <a href="https://github.com/koegelma/Post-Human-Evolution">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Post Human Evolution</h3>
+
+                <p class="project-category">Topdown 2D Survival Shooter developed with FUDGE</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="3d game">
+              <a href="https://github.com/vale-sch/GaDeWo/tree/main">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Bari-Starship</h3>
+
+                <p class="project-category">3D Game developed with Unity</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #PROJECT1
+      -->
+      <!-- <article class="the art of peace" data-page="the art of peace">
+        <header>
+          <h2 class="h2 article-title">The Art Of Peace</h2>
+        </header>
+        <section class="attribute">
+
+          <p>
+            Website theme by <a href="https://github.com/codewithsadee" title="codewithsadee"> codewithsadee</a>.
+          </p>
+
+          <p>
+            Icons made by <a href="https://www.flaticon.com/authors/juicy-fish" title="juicy_fish"> juicy_fish </a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+          </p>
+
+        </section>
+        
+      </article> -->
+
+      <!--
+          - #CONTACT
+        -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" action="https://formspree.io/f/xwkjklvd" method="POST" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+          <div class="success-message" id="success-message"></div>
+          <div class="error-message" id="error-message"></div>
+        </section>
+
+      </article>
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $("#contact-form").submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+              url: "https://formspree.io/f/xwkjklvd",
+              method: "POST",
+              data: $(this).serialize(),
+              dataType: "json",
+              headers: {
+                Accept: "application/json"
+              },
+              success: function () {
+                $("#success-message").html("Your message was sent successfully!");
+              },
+              error: function () {
+                $("#error-message").html("An error occurred while sending your message. Please try again later.");
+              }
+            });
+          });
+        });
+      </script>
+
+      <!--
+        - #ATTRIBUTIONS
+      -->
+
+      <article class="attributions" data-page="attributions">
+
+        <header>
+          <h2 class="h2 article-title">Attributions</h2>
+        </header>
+
+        <section class="attribute">
+
+          <p>
+            Website theme by <a href="https://github.com/codewithsadee" title="codewithsadee"> codewithsadee</a>.
+          </p>
+
+          <p>
+            Icons made by <a href="https://www.flaticon.com/authors/juicy-fish" title="juicy_fish"> juicy_fish </a>
+            from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>.
+          </p>
+
+        </section>
+
+      </article>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
